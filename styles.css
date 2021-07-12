@@ -1,0 +1,62 @@
+body {
+    background: #302c29;
+}
+
+@font-face {
+    font-family: TF2;
+    src: url("tf2_diy_kit/TF2_fonts/TF2.ttf");
+}
+
+@font-face {
+    font-family: "TF2 Secondary";
+    src: url("tf2_diy_kit/TF2_fonts/TF2secondary.ttf");
+}
+
+@font-face {
+    font-family: "TF2 Build";
+    src: url("tf2_diy_kit/TF2_fonts/TF2Build.ttf");
+}
+
+p {
+    color: #f5e7de;
+    font-family: "TF2 Secondary";
+    /*src: url("tf2_diy_kit/TF2_fonts/TF2secondary.ttf");*/
+}
+
+h1 {
+    color: #f5e7de;
+    font-family: "TF2 Build";
+    /*src: url("tf2_diy_kit/TF2_fonts/TF2Build.ttf");*/
+}
+
+div {
+    border-color: #7d736a;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    font-family: "TF2 Build";
+    background: #7e7266;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    color: #f5e7de;
+    font-size: 24px;
+}
+
+.buttonHover{
+    background: #924738;
+    color: #f5e7de;
+}
