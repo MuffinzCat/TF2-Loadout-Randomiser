@@ -120,7 +120,8 @@
       "Scotman's Skullcutter",
       "Ullapool Caber",
       "Half-Zatoichi",
-      "Persian Persuader"
+      "Persian Persuader",
+      "Claidheamh Mòr"
     ]
   },
   "heavy": {
@@ -187,7 +188,7 @@
     ],
     "melee": [
       "Bonesaw",
-      "Übersaw",
+      "Ubersaw",
       "Vita-Saw",
       "Amputator",
       "Solemn Vow"
