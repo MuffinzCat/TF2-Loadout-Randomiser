@@ -240,6 +240,7 @@ function buttonClick() {
                 console.log(primary);
                 console.log(secondary);
                 console.log(melee);
+                console.log(watch)
 
                 classImg.src = "assets/classes/Spy.png";
                 classTxt.innerHTML = "Spy";
