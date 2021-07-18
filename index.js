@@ -234,6 +234,7 @@ function buttonClick() {
                 primary = itemList.spy.primary[rng(0, itemList.spy.primary.length)];
                 secondary = itemList.spy.secondary[rng(0, itemList.spy.secondary.length)];
                 melee = itemList.spy.melee[rng(0, itemList.spy.melee.length)];
+                let watch = itemList.spy.watch[rng(0, itemList.spy.watch.length)];
 
                 console.log("spy");
                 console.log(primary);
@@ -251,6 +252,10 @@ function buttonClick() {
 
                 meleeImg.src = "assets/weapons/" + melee + ".png";
                 meleeTxt.innerHTML = melee;
+
+                document.getElementById("watch").src = "assets/weapons/" + watch + ".png";
+                document.getElementById("watch-text").innerHTML = watch;
+
                 cloak(true);
                 break
         }
